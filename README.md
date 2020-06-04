@@ -1,12 +1,12 @@
 # pulumi-project
 Create a webserver with Pulumi and Python
 
-Pre-requisites:
+# Pre-requisites:
 * Pulumi Account
 * Python > 3.6
 * AWS account and AWS CLI configured
 
-How it works:
+# How it works:
 
 Pulumi is a multi-cloud Infra-as-a-code service provider. What sets it apart from others is that it maintains the state of your infrastructure. That means, after deploying the infrastructure via Pulumi, if something is manually changed from within the AWS console, it will be able to detect the changes. Also, you can check the revision history to the stack from the web interface.
 
